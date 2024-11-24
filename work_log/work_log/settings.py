@@ -134,3 +134,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 TOKEN = ''
 PROXY = ''
+TELEGRAM_BOT_API_KEY = ''
