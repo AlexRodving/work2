@@ -12,7 +12,7 @@ class Command(BaseCommand):
         @bot.message_handler(func=lambda message: message.text.startswith("!"))
         def handle_message(message):
             try:
-                content = message.text[1:].strip()  # Убираем "!" и пробелы
+                content = message.text[1:].strip()
                 parts = content.split("*")
                 
                 if len(parts) == 2:
